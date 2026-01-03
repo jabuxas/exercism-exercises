@@ -1,0 +1,54 @@
+# === General / Exercism ===
+# Ignore Exercism metadata if you don't want to sync tracking across machines
+# .exercism/
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# === Elixir ===
+# The directory where the project is compiled
+/_build/
+# The directory where dependencies are stored
+/deps/
+# Temporary files and crash dumps
+erl_crash.dump
+*.ez
+# Elixir Language Server local data
+.elixir_ls/
+
+# === Go ===
+# Binary files and executables
+bin/
+# Test binaries
+*.test
+# Dependency vendor directory (if used)
+vendor/
+# Specific generated files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# === Vue / JavaScript ===
+# Dependency directories
+node_modules/
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Distribution files
+dist/
+
+# === Python / Django ===
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+# Virtual environments
+venv/
+.env/
+# Local settings (keep secrets out of git)
+local_settings.py
